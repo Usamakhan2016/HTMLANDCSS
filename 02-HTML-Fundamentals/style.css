@@ -1,11 +1,14 @@
 * {
     /* border-top: 10px solid #1098ad ; */
+    /* padding: 0; */
+        /* margin: 0; */
 }
 
 body{
     font-family: sans-serif;
     color: #444;
-    border-top: 10px solid red ;
+    border-top: 10px solid #1098ad ;
+    margin: 0 ;
 }
 
 /* 
@@ -31,12 +34,14 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-bottom: 30px;
     
 }
 
 h3 {
     font-size: 30px;
-    
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 h4 {
@@ -46,17 +51,21 @@ h4 {
     text-align: center;
 }
 
-
+ul,ol{
+     margin-left: 50px;
+}
 
 p {
     font-size: 22px;
-    
+    margin-bottom: 15px;
     line-height: 1.5;
 }
 
 li{
  
     font-size : 20px;
+    margin-bottom: 10px;
+    /* display: inline; */
 }
 
 /* footer p{
@@ -88,14 +97,35 @@ ul{
     list-style: none;
 }
 
+.container{
+    width: 700px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+
 .main-header{
     background-color: #f7f7f7;
+    /* padding: 20px ; */
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+margin-bottom: 60px;
+    padding: 20px 40px;
+    /* height: 80px; */
+
 }
+
+
 
 aside{
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
+   /* padding-top: 50px;
+   padding-bottom: 50px;  */
+/* width: 500px; */
+   padding: 50px 0;
+
 }
 
 /* .first-li{
@@ -106,7 +136,8 @@ li:first-child{
     font-weight: bold;
 }
 li:last-child{
-    font-weight: bold;
+    /* font-weight: bold; */
+margin-bottom: 0;
 }
 li:nth-child(even){
     /* color: red; */
@@ -155,4 +186,34 @@ nav a:link,nav p{
 
 nav{
     font-size: 18px;
+}
+
+.post-header{
+    margin-bottom: 40px; 
+}
+
+article{
+    margin-bottom: 60px;
+}
+
+.post-img{
+    /* width: 800px; */
+    width: 100%;
+    height: auto;
+    /* margin: 100px; */
+}
+
+nav a:link{
+    /* background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+    display: block; */
+
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav a:link:last-child{
+    margin-right: 0;
 }
