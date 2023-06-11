@@ -108,7 +108,7 @@ ul{
 
 .main-header{
     background-color: #f7f7f7;
-    background-color: red;
+    /* background-color: red; */
     /* padding: 20px ; */
     /* padding-left: 40px; */
     /* padding-right: 40px; */
@@ -120,16 +120,7 @@ ul{
 
 
 
-aside{
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
-   /* padding-top: 50px;
-   padding-bottom: 50px;  */
-/* width: 500px; */
-   padding: 50px 0;
 
-}
 
 /* .first-li{
     font-weight: bold;
@@ -199,9 +190,6 @@ nav{
     /* sposition: relative; */
 }
 
-article{
-    margin-bottom: 60px;
-}
 
 .post-img{
     /* width: 800px; */
@@ -305,4 +293,31 @@ clear: both;
     clear: both;
     content: '';
     display: block;
+ }
+
+
+
+ article{
+    margin-bottom: 60px;
+    background-color: green;
+    width: 825px;
+    float: left;
+}
+
+ aside{
+    /* background-color: #f7f7f7; */
+    background-color: red;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+   /* padding-top: 50px;
+   padding-bottom: 50px;  */
+/* width: 500px; */
+   padding: 50px 0;
+   width: 300px;
+    float: right;
+}
+
+ footer{
+    background-color: yellow;
+    float: both;
  }
